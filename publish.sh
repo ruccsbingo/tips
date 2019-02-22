@@ -1,5 +1,5 @@
 gitbook build
-rm docs
+rm -rfv docs
 mv _book docs
 git add .
 git commit -m 'commit'  
